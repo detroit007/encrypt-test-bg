@@ -1,0 +1,20 @@
+{
+  "name": "encrypt-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.37.4"
+  }
+}
